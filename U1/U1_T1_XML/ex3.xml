@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <edificio>
+        <planta>
+            <numero>1</numero>
+            <superficie>300</superficie>
+            <empleado>
+                <puesto>Recepcionista</puesto>
+                <extension>100</extension>
+                <nombre>Federico</nombre>
+                <apellidos>Lalde Mea</apellidos>
+                <dni>21456051</dni>
+            </empleado>
+            <empleado>
+                <puesto>Auxiliar Administrativo</puesto>
+                <extension>101</extension>
+                <nombre>Olga</nombre>
+                <apellidos>Rodríguez Collado</apellidos>
+                <dni>26115542</dni>
+            </empleado>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>102</extension>
+                <nombre>Andres</nombre>
+                <apellidos>Villalba Valverde</apellidos>
+                <dni>23555666</dni>
+            </empleado>
+            <empleado>
+                <puesto>Limpiador</puesto>
+                <extension>103</extension>
+                <nombre>Jhon</nombre>
+                <apellidos>Carrero Blanco</apellidos>
+                <dni>28951358</dni>
+            </empleado>
+            <empleado>
+                <puesto>Conserje</puesto>
+                <extension>104</extension>
+                <nombre>Andrea</nombre>
+                <apellidos>Cañamero Jundra</apellidos>
+                <dni>22154111</dni>
+            </empleado>
+        </planta>
+        <planta>
+            <numero>2</numero>
+            <superficie>300</superficie>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>200</extension>
+                <nombre>Lorenzo</nombre>
+                <apellidos>Camas Muñas</apellidos>
+                <dni>22020200</dni>
+            </empleado>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>201</extension>
+                <nombre>Silvia</nombre>
+                <apellidos>Abril Pantoja</apellidos>
+                <dni>29959686</dni>
+            </empleado>
+            <empleado>
+                <puesto>Contable</puesto>
+                <extension>202</extension>
+                <nombre>Pedro</nombre>
+                <apellidos>Almonte Almodovar</apellidos>
+                <dni>20333222</dni>
+            </empleado>
+            <empleado>
+                <puesto>Abogado</puesto>
+                <extension>203</extension>
+                <nombre>Aarón</nombre>
+                <apellidos>Pastor López</apellidos>
+                <dni>208794455</dni>
+            </empleado>
+            <empleado>
+                <puesto>Informático</puesto>
+                <extension>204</extension>
+                <nombre>Carlos Jesús</nombre>
+                <apellidos>Lazo Santiago</apellidos>
+                <dni>21255555</dni>
+            </empleado>
+        </planta>
+        <planta>
+            <numero>3</numero>
+            <superficie>300</superficie>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>300</extension>
+                <nombre>Ana</nombre>
+                <apellidos>Piñero Muñoz</apellidos>
+                <dni>21858888</dni>
+            </empleado>
+            <empleado>
+                <puesto>Gerente</puesto>
+                <extension>301</extension>
+                <nombre>Marta</nombre>
+                <apellidos>López Martínez</apellidos>
+                <dni>21656966</dni>
+            </empleado>
+            <empleado>
+                <puesto>Director</puesto>
+                <extension>302</extension>
+                <nombre>Nerea</nombre>
+                <apellidos>García Egea</apellidos>
+                <dni>22999666</dni>
+            </empleado>
+            <empleado>
+                <puesto>Secretario</puesto>
+                <extension>303</extension>
+                <nombre>Izaskun</nombre>
+                <apellidos>Trazado Requena</apellidos>
+                <dni>22369369</dni>
+            </empleado>
+            <empleado>
+                <puesto>Ingeniero</puesto>
+                <extension>304</extension>
+                <nombre>Aitor</nombre>
+                <apellidos>Esteban Loyola</apellidos>
+                <dni>23369369</dni>
+            </empleado>
+        </planta>
+    </edificio>
+    <edificio>
+        <planta>
+            <numero>1</numero>
+            <superficie>175</superficie>
+            <empleado>
+                <puesto>Recepcionista</puesto>
+                <extension>110</extension>
+                <nombre>Ximo</nombre>
+                <apellidos>Puig Domeneq</apellidos>
+                <dni>23258852</dni>
+            </empleado>
+            <empleado>
+                <puesto>Auxiliar Administrativo</puesto>
+                <extension>111</extension>
+                <nombre>Juan José</nombre>
+                <apellidos>Serrano Orduñez</apellidos>
+                <dni>23256652</dni>
+            </empleado>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>112</extension>
+                <nombre>Alberto</nombre>
+                <apellidos>SanPedro Ortiz</apellidos>
+                <dni>232544455</dni>
+            </empleado>
+            <empleado>
+                <puesto>Limpiador</puesto>
+                <extension>113</extension>
+                <nombre>Pablo</nombre>
+                <apellidos>Abellán Rodríguez</apellidos>
+                <dni>24777777</dni>
+            </empleado>
+            <empleado>
+                <puesto>Conserje</puesto>
+                <extension>114</extension>
+                <nombre>Teresa</nombre>
+                <apellidos>Bartolomeu Casanova</apellidos>
+                <dni>24000111</dni>
+            </empleado>
+        </planta>
+        <planta>
+            <numero>2</numero>
+            <superficie>175</superficie>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>210</extension>
+                <nombre>Pablo</nombre>
+                <apellidos>Fuertes Hidalgo</apellidos>
+                <dni>25023320</dni>
+            </empleado>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>211</extension>
+                <nombre>Irene</nombre>
+                <apellidos>Caballero Francés</apellidos>
+                <dni>25879879</dni>
+            </empleado>
+            <empleado>
+                <puesto>Contable</puesto>
+                <extension>212</extension>
+                <nombre>Lilith</nombre>
+                <apellidos>Jiménez del Pozo</apellidos>
+                <dni>25987741</dni>
+            </empleado>
+            <empleado>
+                <puesto>Director Marketing</puesto>
+                <extension>213</extension>
+                <nombre>Yolanda</nombre>
+                <apellidos>Del Toro Castro</apellidos>
+                <dni>25369741</dni>
+            </empleado>
+            <empleado>
+                <puesto>Informático</puesto>
+                <extension>214</extension>
+                <nombre>Eduardo</nombre>
+                <apellidos>Rodrigo Méndez</apellidos>
+                <dni>26369741</dni>
+            </empleado>
+        </planta>
+        <planta>
+            <numero>3</numero>
+            <superficie>175</superficie>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>310</extension>
+                <nombre>Pedro</nombre>
+                <apellidos>Abascal Tocino</apellidos>
+                <dni>26456123</dni>
+            </empleado>
+            <empleado>
+                <puesto>Gerente</puesto>
+                <extension>311</extension>
+                <nombre>Juan</nombre>
+                <apellidos>Uruña Tadeo</apellidos>
+                <dni>26785412</dni>
+            </empleado>
+            <empleado>
+                <puesto>Abogado</puesto>
+                <extension>312</extension>
+                <nombre>Mateo</nombre>
+                <apellidos>Pascual Perez</apellidos>
+                <dni>26632598</dni>
+            </empleado>
+            <empleado>
+                <puesto>Secretario</puesto>
+                <extension>313</extension>
+                <nombre>Honorato</nombre>
+                <apellidos>de la Piedra Rincón</apellidos>
+                <dni>26013428</dni>
+            </empleado>
+            <empleado>
+                <puesto>Ingeniero</puesto>
+                <extension>314</extension>
+                <nombre>Hipólito</nombre>
+                <apellidos>Bodeas Rico</apellidos>
+                <dni>26753159</dni>
+            </empleado>
+        </planta>
+    </edificio>
+    <edificio>
+        <planta>
+            <numero>1</numero>
+            <superficie>205</superficie>
+            <empleado>
+                <puesto>Recepcionista</puesto>
+                <extension>150</extension>
+                <nombre>Diego</nombre>
+                <apellidos>Monte Sanchez</apellidos>
+                <dni>27741147</dni>
+            </empleado>
+            <empleado>
+                <puesto>Auxiliar Administrativo</puesto>
+                <extension>151</extension>
+                <nombre>Nuria</nombre>
+                <apellidos>Sevilla Franco</apellidos>
+                <dni>27111025</dni>
+            </empleado>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>152</extension>
+                <nombre>Isabel</nombre>
+                <apellidos>Velarde Martínez</apellidos>
+                <dni>27789632</dni>
+            </empleado>
+            <empleado>
+                <puesto>Limpiador</puesto>
+                <extension>153</extension>
+                <nombre>Noa</nombre>
+                <apellidos>López Calderón</apellidos>
+                <dni>27025461</dni>
+            </empleado>
+            <empleado>
+                <puesto>Conserje</puesto>
+                <extension>154</extension>
+                <nombre>Mari Paz</nombre>
+                <apellidos>Matute Summers</apellidos>
+                <dni>27562333</dni>
+            </empleado>
+        </planta>
+        <planta>
+            <numero>2</numero>
+            <superficie>205</superficie>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>155</extension>
+                <nombre>Joaquín</nombre>
+                <apellidos>Hernán Piedra</apellidos>
+                <dni>27888888</dni>
+            </empleado>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>156</extension>
+                <nombre>Carmen</nombre>
+                <apellidos>Nogales Martín</apellidos>
+                <dni>28000555</dni>
+            </empleado>
+            <empleado>
+                <puesto>Contable</puesto>
+                <extension>157</extension>
+                <nombre>Pilar</nombre>
+                <apellidos>Herrera López</apellidos>
+                <dni>28985569</dni>
+            </empleado>
+            <empleado>
+                <puesto>Asesor</puesto>
+                <extension>158</extension>
+                <nombre>Alberta</nombre>
+                <apellidos>Tristán Gómez</apellidos>
+                <dni>28031013</dni>
+            </empleado>
+            <empleado>
+                <puesto>Informático</puesto>
+                <extension>159</extension>
+                <nombre>Ramón</nombre>
+                <apellidos>Urqullu Expósito</apellidos>
+                <dni>28035147</dni>
+            </empleado>
+        </planta>
+        <planta>
+            <numero>3</numero>
+            <superficie>206</superficie>
+            <empleado>
+                <puesto>Administrativo</puesto>
+                <extension>160</extension>
+                <nombre>José Luis</nombre>
+                <apellidos>Yañez Olivo</apellidos>
+                <dni>291562556</dni>
+            </empleado>
+            <empleado>
+                <puesto>Gerente</puesto>
+                <extension>161</extension>
+                <nombre>Juan Carlos</nombre>
+                <apellidos>Garó Garó</apellidos>
+                <dni>33202541</dni>
+            </empleado>
+            <empleado>
+                <puesto>Abogado</puesto>
+                <extension>162</extension>
+                <nombre>José María</nombre>
+                <apellidos>Pemán Santos</apellidos>
+                <dni>21002498</dni>
+            </empleado>
+            <empleado>
+                <puesto>Secretario</puesto>
+                <extension>163</extension>
+                <nombre>Iñigo</nombre>
+                <apellidos>Montesierra Wallman</apellidos>
+                <dni>29302000</dni>
+            </empleado>
+            <empleado>
+                <puesto>Ingeniero</puesto>
+                <extension>164</extension>
+                <nombre>Iñaki</nombre>
+                <apellidos>Zonowski Jiménez</apellidos>
+                <dni>28716045</dni>
+            </empleado>
+        </planta>
+    </edificio>
+</empresa>

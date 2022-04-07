@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+h1, h4, footer{
+    text-align: center;
+}
+
+header>p{
+    text-align: right;
+}
+
+ul li{
+    display: inline-flex;
+    padding-right: 2%;
+}
+
+img {
+    width: 100%;
+}
+.negro{
+    background-color: black;
+    color:white;
+    padding: 1%;
+}
+.negro>li:hover{
+    background-color: white;
+    color:black;
+}
+.enlinea{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.enlinea>div{
+    width: 20%;
+}
+/*LISTA DOS COLORES*/
+.enbloque{
+    display: flex;
+    flex-direction:column;
+}
+#doscolores{  
+    margin-top: 1%;
+}
+#doscolores>li{
+    padding: 1%;
+}
+#doscolores>li:nth-child(odd){
+    background-color: grey;
+}
+#doscolores>li:last-child{
+    padding-bottom: 75%;
+}
+/*CONTENEDOR IMAGEN*/
+#imagen{
+    background-color: grey;
+    text-align: center;
+    padding: 1%;
+}
+#imagen>p{
+    padding: 3%;
+}
+/*FORMULARIO*/
+form>p{
+   padding: 2%; 
+}
+input, button{
+    padding: 2% 4%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+button{
+    cursor: pointer;
+}

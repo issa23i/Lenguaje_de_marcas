@@ -1,0 +1,148 @@
+/* RESET */
+*{max-width: 100%;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,
+abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,stri
+ke,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,l
+egend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,e
+mbed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summ
+ary,time,mark,audio,video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+display: block;}
+body {
+line-height: 1;}
+ul {
+list-style: none;}
+
+/* distribución */
+
+
+.enlinea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.enlineaalreves {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+main.enlineaalreves{
+    margin-top: 2%;
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajaizq{
+max-width: 75%;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-top: 5%;
+}
+
+
+/* tamaño */
+.todo{
+    width: 100%;
+    margin: 0;
+padding: 0;
+border: 0;
+}
+.bandera {
+    max-width: 20px;
+    margin-bottom: 1px;
+}
+#logo {
+    max-width: 20%;
+}
+#trescasillas {
+    margin: 1% 10%;
+}
+.alcentro{
+    text-align: center;
+}
+
+/* aspecto */
+header{
+    margin: 4em 0em;
+}
+nav, footer{
+    padding: 1em;
+    background-color: #ec008c;
+    color: white;
+}
+ul {
+    padding: 1em 2em 1em 2em;
+}
+.casilla {
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    border: rgb(236, 0, 140) 1px solid;
+}
+.casilla>img{
+    margin-bottom: 1em;
+}
+#pfooter {
+    text-align: center;
+    margin: 1em;
+}
+h3 {
+    font-size: 1.5em;
+}
+#logo{
+    margin: 2%;
+}
+#buscador{
+    padding-bottom: 0.3em;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+
+#twitter {
+    justify-content: left;
+}
+#banner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.capa1{
+    z-index: 1;
+}
+.capa2{
+    z-index: 2;
+    color: rgb(236, 0, 140);
+    font-size: 1.5em;
+    font-weight: 200;
+    position: absolute;
+    top: 75%;
+}
+#derecha{
+    left: 1%;
+    
+}
+#centro{
+    left: 50%;
+    top: 78%;
+}
+#izquierda{
+    right: 1%;
+   
+}
+#textotwitter{
+    left: 0%;
+}

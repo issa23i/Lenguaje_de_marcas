@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga SYSTEM "liga.dtd" >
+<liga>
+    <partidos>
+        <partido>
+            <equipo tipo="local">
+                <nombre>Zaragoza</nombre>
+                <goles>
+                    <gol jug="Pepe" min="58" pen="si" />
+                    <gol jug="Pepe" min="75" pen="no" />
+                </goles>
+            </equipo>
+            <equipo tipo="visitante">
+                <nombre>Numancia</nombre>
+                <tarjetas>
+                    <tarjeta>
+                        <jugador>Manuel</jugador>
+                        <color>roja</color>
+                    </tarjeta>
+                </tarjetas>
+            </equipo>
+        </partido>
+    </partidos>
+</liga>

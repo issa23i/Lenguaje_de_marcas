@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: auto;
+    list-style: none;
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+}
+.lineareves{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+.separarentre{
+    justify-content: space-between;
+}
+.absoluto{
+    position: absolute;
+}
+.derecha{
+    margin-left:70%;
+    margin-top:7%;
+    color:#EC008C;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.izquierda{
+    margin-left:1%;
+    margin-top:7%;
+    color:#EC008C;
+    font-weight:bolder;
+    font-size: 2em;
+}
+.abajo{
+    margin-left:33%;
+    margin-top:13%;
+    color:#EC008C;
+    font-weight:bolder;
+    font-size: 2em;
+}
+input{
+    border: 1px solid black;
+    border-radius: 2px 2px;
+    width: 75%;
+}
+#logo{
+    width: 50%;
+}
+#lupa{
+    width: 10%;
+}
+.lado{
+    width: 25%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: flex-end;
+}
+#busqueda{
+    width: 100%;
+    height: 25%;
+    padding-bottom: 10%;
+    justify-content: flex-end;
+}
+.pais{
+    width: 25px;
+    height: 25px;
+    padding-bottom: 2px;
+}
+.menu{
+    background-color: #EC008C;
+    color:#fabee2;
+}
+.menu>ul>li{
+    padding: 1% 2%;
+}
+.menu>ul>li:hover{
+    color:#EC008C;
+    background-color: #fabee2;
+    cursor: pointer;
+}
+.cuerpo{
+    width: 73%;
+}
+.tarjetas{
+    justify-content: space-around;
+    margin: 3% 10%;
+}
+.tarjeta{
+    justify-content: space-between;
+    width: 23%;
+    border:3px solid #EC008C;
+    border-radius: 6% 6%;
+    padding:2%;
+}
+.tarjeta>img{
+    margin:10%;
+}
+.tarjeta>p{
+    text-align: center;
+    margin:3% 18% 3% 18%;
+    font-weight: bold;
+}
+.pie{
+    text-align: center;
+    padding: 1%;
+}

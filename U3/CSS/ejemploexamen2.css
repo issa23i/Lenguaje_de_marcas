@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style: none;
+}
+span{
+    font-weight: bold;
+    color:black;
+}
+#fondo{
+    background-color: black;
+    color: white;
+    padding-top: 2%;
+    border-radius: 1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.derecha{
+    text-align: right;
+}
+#menu{    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: darkgreen;
+    margin-top: 1%;
+    border-bottom: 3px solid black;
+}
+#menu>div{
+    padding: 1% 1%;
+}
+#menu>div:hover{
+    background-color: limegreen;
+    color:black;
+    cursor: pointer;
+}
+#cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1% 1%;
+    color:black;
+}
+.cajagris{
+    background-color:darkgrey;
+    padding: 1% 1%;
+    margin: 1% 1%;
+    height: 50%;
+    border-radius: 2% 2%;
+}
+#cajacentro{
+    margin: 2% 0%;
+}
+.subrayado{
+    background-color: darkgray;
+    border-bottom: 1px solid black;
+    margin: 6% 0% 1% 0%;
+}
+#lista1>li{
+    color:darkgreen;
+}
+#alreves{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 3px 3px;
+    padding: 1%;
+}
+#alreves>img{
+    padding-top: 6%;
+    width: 10%;
+}
+.pie{
+    text-align: center;
+}

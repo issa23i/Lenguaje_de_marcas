@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 span{
+    color:green;
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+.alreves{
+    flex-direction: row-reverse;
+}
+.reseteo{
+    clear:none;
+}
+.fondogris, .fondogris>a{
+    background-color: gray ;
+    opacity: 50%;
+    width: 25%;
+    position: absolute;
+    color:white;
+    top:80%;
+}
+.fondogris:nth-child(2){
+    margin:1em 0.5em;
+    padding: 1em;
+}
+.tarjeta{
+width: 30%;
+justify-content: space-between;
+padding: 1%;
+}
+.icono{
+    padding: 1%;
+    margin-right: 1em;
+    width: 80%;
+}
+#logo{
+    margin-bottom: 1%;
+}
+#fraselogo{
+    padding-left: 1em;
+    border-left: 1px solid grey;
+    margin-left: 1%;
+    color: gray;
+}
+#contacto{
+    width: 100%;
+    margin: 1% 0% 1% 0%;
+    justify-content:right;
+}
+#contacto>ul>li>img{
+    margin-right: 0.5em;
+}
+#mail{
+    margin: 0 0.5em 0 1em;
+    border-left: 1px solid black;
+}
+#menuprincipal{
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1% 0%;
+}
+#menuprincipal a{
+    color:white;
+    padding: 1em;
+}
+#menuprincipal input:read-write{
+    background-color: black;
+}
+#menuprincipal form{
+    padding: 1% 0%;
+}
+#menuprincipal a:hover{
+    background-color: white;
+    color:black;
+}
+

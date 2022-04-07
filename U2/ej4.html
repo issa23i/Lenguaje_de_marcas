@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <style>
+        table{
+            border: 2px solid orange;
+            font-weight: 600;
+        }
+        td{
+            padding-right: 200px;
+        }
+        #cabecera, button{
+            background-color: orange;
+            color: white;
+            margin-left: 6px;
+            height: 36px;
+        }
+        #botones{
+            text-align: center;
+            background-color: gray;
+        }
+        span{
+            padding-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get"></form>
+        <table>
+            <tr id="cabecera">
+                <td colspan="3"> <span>Leave Form</span>
+                More Actions ▼</td>
+            </tr>
+            <tr>
+                <td><label for="email">Employee Email</label></td>
+                <td>
+                    <select name="email" id="email">
+                        <option value="appuser@zohocreator.com">appuser@zohocreator.com</option>
+                        <option value="mensa@zohocreator.com">mensa@zohocreator.com</option>
+                        <option value="cuator@zohocreator.com">cuator@zohocreator.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Id">Employee ID</label></td>
+                <td><input type="text" name="Id" id="Id"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Employee name</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="puesto">Designation</label></td>
+                <td><input type="text" name="puesto" id="puesto"></td>
+            </tr>
+            <tr>
+                <td><label for="leave">Leave type</label></td>
+                <td>
+                    <select name="leave" id="leave">
+                        <option value="-Select-">-Select-</option>
+                        <option value="uno">uno</option>
+                        <option value="dos">dos</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="From">From</label></td>
+                <td><input type="date" name="From" id="From">(dd-MM-yyyy)</td>
+            </tr>
+            <tr>
+                <td><label for="To">To</label></td>
+                <td><input type="date" name="To" id="To">(dd-MM-yyyy)</td>
+            </tr>
+            <tr>
+                <td><label for="fecha">No of Days</label></td>
+                <td><input type="text" name="fecha" id="fecha"></td>
+            </tr>
+            <tr>
+                <td><label for="razon">Reason</label></td>
+                <td><textarea name="razon" id="razon" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr id="botones">
+                <td colspan="2"><button type="submit">Submit</button><button type="reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

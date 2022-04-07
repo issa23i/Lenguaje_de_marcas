@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HOJA DE INSCRIPCIÓN EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+    <form method="post" action="formulario.html">
+        <fieldset >
+        <legend>Datos Personales</legend>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos">
+            <label for="DNI">DNI</label>
+            <input type="text" name="dni">
+        </div>
+        <div>
+            <label for="localidad">Localidad de Nacimiento</label>
+            <input type="text" name="localidad">
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia">
+                <option value="Alicante">Alicante</option>
+                <option value="Albacete">Albacete</option>
+                <option value="Almería">Almería</option>
+            </select>
+            <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Forma de Acceso</legend>
+            <div>
+                <select name="botonera" id="botonera">
+                    <input type="radio" value="Directo">
+                        <select name="botonera2" id="botonera2">
+                            <input type="radio" value="Bachillerato.">
+                            <input type="radio" value="Directo">
+                            <input type="radio" value="Directo">
+                            <input type="radio" value="Directo">
+                            <input type="radio" value="Directo">
+                        </select>
+                    <input type="radio" value="Prueba libre">
+                </select>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

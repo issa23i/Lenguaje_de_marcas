@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej4.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<shiporder orderid="first">
+    <orderperson>
+        algo aquí
+    </orderperson>
+    <shipto>
+        <name>nombre</name>
+        <address>direccion</address>
+        <city>ciudad</city>
+        <country>país</country>
+    </shipto>
+    <item>
+        <title>título</title>
+        <note>nota</note>
+        <quantity>13</quantity>
+        <price>13.3</price>
+    </item>
+</shiporder>

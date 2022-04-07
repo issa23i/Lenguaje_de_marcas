@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro Catalogo="catalogo1">
+    <Titulo>El hombre mojado no teme la lluvia</Titulo>
+    <Seccion>Política</Seccion>
+    <SubSeccion>Internacional</SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>Oriente Medio</Tema>
+        </Capitulo>
+    </Contenido>
+    <Copyright>Sí</Copyright>
+</Libro>

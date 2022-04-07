@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster>
+    <nodo>
+        <nombre>a</nombre>
+        <ip>192.254.101.101</ip>
+        <mvirtual>
+            <nombre>myW95</nombre>
+            <so>Windows 95</so>
+            <interface>
+                <ip>110.111.121</ip>
+                <mac>00:00:00:AB:06</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myUbuntuS</nombre>
+            <so>Ubuntu Server</so>
+            <interface>
+                <ip>66.56.54</ip>
+                <mac>00:00:00:AB:03</mac>
+            </interface>
+            <interface>
+                <ip>66.56.55</ip>
+                <mac>00:00:00:AB:04</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myWNT</nombre>
+            <so>Windows NT</so>
+            <interface>
+                <ip>48.84.48</ip>
+                <mac>00:00:00:AB:05</mac>
+            </interface>
+        </mvirtual>
+    </nodo>
+    <nodo>
+        <nombre>b</nombre>
+        <ip>192.254.101.102</ip>
+        <mvirtual>
+            <nombre>myWNT</nombre>
+            <so>Windows NT</so>
+            <interface>
+                <ip>23.55.83</ip>
+                <mac>00:00:01:AB:06</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myRedHAT</nombre>
+            <so>Red Hat Enterprise Linux</so>
+            <interface>
+                <ip>156.156.157</ip>
+                <mac>00:00:08:AB:06</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myNovellOES</nombre>
+            <so>Novell Open Enterprise Server</so>
+            <interface>
+                <ip>123.123.123</ip>
+                <mac>00:00:05:AB:06</mac>
+            </interface>
+        </mvirtual>
+    </nodo>
+    <nodo>
+        <nombre>c</nombre>
+        <ip>192.254.101.103</ip>
+        <mvirtual>
+            <nombre>myDebian</nombre>
+            <so>Debian</so>
+            <interface>
+                <ip>127.25.25</ip>
+                <mac>00:00:04:AB:06</mac>
+            </interface>
+            <interface>
+                <ip>127.25.26</ip>
+                <mac>00:00:04:AB:07</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myUbuntuS</nombre>
+            <so>Ubuntu Server</so>
+            <interface>
+                <ip>20.33.88</ip>
+                <mac>00:00:05:AB:07</mac>
+            </interface>
+            <interface>
+                <ip>20.33.89</ip>
+                <mac>00:00:05:AB:08</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myRedHatEL</nombre>
+            <so>Red Hat Enterprise Linux</so>
+            <interface>
+                <ip>47.51.86</ip>
+                <mac>00:00:00:AB:09</mac>
+            </interface>
+        </mvirtual>
+    </nodo>
+    <nodo>
+        <nombre>a</nombre>
+        <ip>192.254.101.101</ip>
+        <mvirtual>
+            <nombre>myNovellOES</nombre>
+            <so>Novell Open Enterprise Server</so>
+            <interface>
+                <ip>45.65.88</ip>
+                <mac>00:00:00:AB:B6</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myDebian</nombre>
+            <so>Debian</so>
+            <interface>
+                <ip>60.33.22</ip>
+                <mac>00:00:00:AB:B3</mac>
+            </interface>
+            <interface>
+                <ip>60.33.23</ip>
+                <mac>00:00:00:AB:B4</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myWindowsNT</nombre>
+            <so>Windows NT</so>
+            <interface>
+                <ip>89.23.212</ip>
+                <mac>00:00:00:AB:B8</mac>
+            </interface>
+        </mvirtual>
+    </nodo>
+    <nodo>
+        <nombre>e</nombre>
+        <ip>192.254.101.105</ip>
+        <mvirtual>
+            <nombre>myWindowsNT</nombre>
+            <so>Windows NT</so>
+            <interface>
+                <ip>51.57.10</ip>
+                <mac>00:0C:00:AB:06</mac>
+            </interface>
+            <interface>
+                <ip>51.57.11</ip>
+                <mac>00:0C:00:AB:07</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myRHEL</nombre>
+            <so>Red Hat Enterprise Linux</so>
+            <interface>
+                <ip>40.22.32</ip>
+                <mac>00:0D:00:AB:06</mac>
+            </interface>
+        </mvirtual>
+        <mvirtual>
+            <nombre>myNOES</nombre>
+            <so>Novell Open Enterprise Server</so>
+            <interface>
+                <ip>45.123.127</ip>
+                <mac>00:00:00:AB:D6</mac>
+            </interface>
+            <interface>
+                <ip>45.123.128</ip>
+                <mac>00:00:00:AB:D7</mac>
+            </interface>
+        </mvirtual>
+    </nodo>
+</cluster>

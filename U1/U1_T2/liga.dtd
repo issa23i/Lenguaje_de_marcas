@@ -1,0 +1,16 @@
+<!ELEMENT liga (partidos+)>
+<!ELEMENT partidos (partido+)>
+<!ELEMENT partido (equipo+)>
+<!ELEMENT equipo (nombre,goles?,tarjetas?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT goles (gol+)>
+<!ELEMENT gol EMPTY>
+<!ELEMENT tarjetas (tarjeta+)>
+<!ELEMENT tarjeta (jugador,color)>
+<!ELEMENT jugador (#PCDATA) >
+<!ELEMENT color (#PCDATA) >
+
+<!ATTLIST equipo tipo (local|visitante)  #REQUIRED>
+<!ATTLIST gol jug CDATA #REQUIRED
+          min CDATA #REQUIRED
+          pen (si|no) #REQUIRED>
