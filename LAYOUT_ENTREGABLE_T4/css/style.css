@@ -1,0 +1,168 @@
+*{
+box-sizing: border-box;
+width: 100%;
+font-size: 100%;
+border: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+vertical-align: baseline;
+outline: 0;
+overflow-x: hidden;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.relativo{
+    position:relative ;
+}
+.absoluto{
+    position: absolute;
+}
+.fijado{
+    position: fixed;
+    top: 28%;
+    background-color: transparent !important;
+}
+.enlinea{
+    display: inline-block;
+}
+.enbloque{
+    display: block;
+}
+.fizq{
+    float: left;
+    width: 56%;
+    padding:2% 6%
+}
+.fdcha{
+    float: right;
+    width: 44%;
+}
+.cabecera{
+    background-color: #3A4131;
+    color: #F6F9F6;
+    font-size: small;
+    text-align: center;
+    padding: 1% 3%;
+    vertical-align: middle;
+}
+.cajainput{
+    margin: 4% 0% 4% 0%;
+}
+#cajalogo{
+    max-width: 22%;
+}
+.cabecera>h1, .cabecera>p, .cabecera>h5 {
+    margin: 0% 6%;
+    font-size: xx-large;
+}
+#texto{
+    max-width: 63%;
+}
+.sombra{
+    box-shadow: 3px 2px 1px #8b6a3b;
+}
+.fondo{
+    background-color: #BA9561;
+    padding-top: 3%;
+}
+.descripcion{
+    font-size: x-large;
+}
+.descripcion>h4{
+    font-weight:600 ;
+    margin: 2% 0% 2% 0%;
+}
+#fondoarbolado{
+    margin: 0% 3% 0% 0%;
+    border-top: 4px dotted #4F383D;
+    text-align: center;
+}
+#fondoarbolado>div>h2{
+    font-size: 2.2em;
+    font-weight:900;
+    color: #4F383D;
+    text-shadow:  0 1px 0 #8b6a3b,  0 2px 0 #BA9561, 2px 3px 5px rgba(94, 41, 10, 0.3);
+}
+#fondoarbolado>div>h3{
+    font-size: x-large;
+    color: #BA9561;
+    text-shadow:  0 1px 0 #8b6a3b,  0 2px 0 #4F383D, 2px 3px 5px rgba(94, 41, 10, 0.3);
+    margin: 0.3% 0% 1%;
+}
+#fondoarbolado>div>p{
+    background-color: #4F383D;
+    color: #F6F9F6;
+}
+#tarjeta_formulario{
+    border-radius: 12px 12px 0px 0px;
+    font-size: x-large;
+}
+#tarjeta_formulario>h5{
+    margin: 1.5% 0% 1.5% 0%;
+}
+#tarjeta_formulario>p{
+    margin: 1.5% 0% 1.5% 0%;
+}
+#formulario{
+    background-color: #BBBBBB;
+    display: block;
+    font-size: large;
+    border-radius: 0 0 15px 15px;
+}
+#formulario>form{
+    text-align: left;
+    color: black;
+    margin: 3% 8% 6% 8%;
+    width: 79%;
+}
+#textoabsoluto{
+    z-index: 3;
+    top: 2%;
+}
+.polaroid{
+    background-color: #F6F9F6;
+    padding: 1% 1% 2% 1%;
+}
+#postal1{
+    z-index: 6;
+    left: 5%;
+    width: 36%;
+    top: 54%;
+    transform: rotate(10deg);
+}
+#postal2{
+    z-index: 8;
+    left: 25%;
+    width: 32%;
+    top: 48%;
+    transform: rotate(-22deg);
+}
+#postal3{
+    z-index: 10;
+    left: 42%;
+    width: 38%;
+    top: 50%;
+    transform: rotate(15deg);
+}
+#postal4{
+    z-index: 12;
+    left: 56%;
+    width: 36%;
+    top: 54%;
+    transform: rotate(-15deg);
+}
+#logochico{
+    z-index: 14;
+    left: 82%;
+    width: 6%;
+    top: 52%;
+    border-radius: 50px;
+}
+#aventuraT, #aventuraP, #aventuraE{
+    margin-top: 4%;
+}
+#aventuraT>input, #aventuraP>input, #aventuraE>input{
+    width: 22%;
+}

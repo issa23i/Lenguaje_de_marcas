@@ -1,0 +1,259 @@
+*{
+    max-width: 100%;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,
+abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,stri
+ke,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,l
+egend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,e
+mbed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summ
+ary,time,mark,audio,video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+display: block;}
+body {
+line-height: 1;}
+ol,ul {
+list-style: none;}
+blockquote,q {
+quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after {
+content: '';
+content: none;}
+table {
+border-collapse: collapse;
+border-spacing: 0;}
+@font-face {
+    font-family: 'Playbrush';
+    src: url('../fonts/Playbrush.ttf');
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'PlaybrushSwash';
+    src: url('../fonts/Playbrush\ Swash.ttf');
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'AristotelicaThin';
+    src: url('../fonts/Aristotelica-Text-Thin-trial.ttf');
+    font-weight: bolder;
+}
+
+/* --- distribuicion -- */
+.enlinea{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.encolumna{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.container{
+    position:relative;
+}
+/*-- logo y barra superior -- */
+#sectionlogo{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.cajalogo{
+    font-family: 'Playbrush';
+    text-align: center;
+    color: rgb(194, 154, 53);
+    background-color: rgb(211, 210, 211);
+    position: sticky;
+    top:0px;
+    font-size: x-large;
+    width: 17%;
+    padding: 0.5% 82.8% 0.5% 0.2%;
+}
+.cajalogo>img{
+    width: 25%;
+}
+.cajalogo>h6{
+    font-family: 'PlaybrushSwash';
+    font-size: xx-large;
+}
+
+/*--  banner  --*/
+
+#sectionbanner{
+    background-image: url(../IMG/banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    box-shadow: 3px 1px 30px black;
+    margin:3% 0% 6% 0%;
+
+}
+#letrasgrandesbanner{
+    margin: 0% 10% 0% 36%;
+    text-align: center;
+}
+#letrasgrandesbanner>h1{
+    font-family: 'AristotelicaThin';
+    font-weight:300;
+    font-size: 7em;
+    color: darkmagenta;
+    text-shadow: 1px 1px 2px rgb(61, 2, 46), 0 0 1em rgb(185, 51, 179), 0 0 0.2em rgb(219, 37, 195);
+    padding: 1% 0% 10% 0%;
+}
+#letrasgrandesbanner>h2{
+    font-size: 3.5em;
+    color: rgb(146, 164, 165);
+    padding: 36% 0% 2% 0%;
+    text-shadow: 1px 1px 2px rgb(70, 70, 70), 0 0 1em rgb(250, 248, 250), 0 0 0.2em rgb(253, 251, 253);
+}
+
+/*-- CENTRO --*/
+
+#centroizquierda{
+    width: 70%;
+}
+#textorosa{
+    font-size: 2.7em;
+    color: darkmagenta;
+    text-shadow: 1px 1px 2px rgb(160, 149, 155), 0 0 1em rgb(250, 248, 250), 0 0 0.2em rgb(253, 251, 253);
+    margin: 2% 3% 2% 1%;
+    padding-bottom: 3%;
+    border-bottom: 3px solid rgb(223, 222, 223);
+}
+#texto{
+    font-size: 1.2em;
+    color: rgb(104, 103, 103);
+    text-align: justify;
+    margin: 0% 6% 3% 3%;
+    line-height: 1.5em;
+}
+span{
+    font-weight: bold;
+}
+
+/*-- CARROUSEL --*/
+
+#carrousel{
+    width: 100%;
+    position: relative;
+    padding-bottom: 48%;
+}
+.fotico{
+    position: absolute;
+    perspective: 106px;
+    width: 33%;
+}
+.fotico{
+    border: 2px solid rgb(77, 6, 47);
+    -webkit-box-reflect: below -4px -webkit-gradient(linear, left top, left bottom,  from(transparent), color-stop(33%, transparent), to(rgba(255, 255, 255, 0.6)));
+}
+#fotoc1{
+    margin: 3% 58% 0% 15%;
+    width: 37%;
+    transform: rotateX(3deg) rotateY(29deg);
+    transform-style:preserve-3d;
+    z-index: 30;
+}
+#fotoc2{
+    margin: 2% 59% 0% 8%;
+    width: 36%;
+    transform: rotateX(2deg) rotateY(26deg);
+    transform-style: preserve-3d;
+    z-index: 15;
+}
+#fotoc3{
+    margin: 5% 32% 0% 27%;
+    width: 40%;
+    z-index: 50;
+}
+#fotoc4{
+    margin: 3% 22% 0% 42%;
+    width: 36%;
+    transform: rotateX(-2deg) rotateY(29deg);
+    transform-style:preserve-3d;
+    z-index: 32;
+}
+#fotoc5{
+    margin: 2% 13% 0% 54%;
+    width: 33%;
+    transform: rotateX(-3deg) rotateY(29deg);
+    transform-style:preserve-3d;
+    z-index: 15;
+}
+
+/* --- FORMULARIO --- */
+
+#centroderecha{
+    margin: 2% 2% 3% 0%;
+    width: 26%;
+}
+#centroderecha>h4{
+    font-size: 2em;
+    color: rgb(102, 100, 101);
+    margin-bottom: 8%;
+}
+#centroderecha>form>input{
+    width: 96%;
+    margin: 2% 1% 2% 1%;
+}
+input#terms{
+    width: 15%!important;
+}
+#centroderecha>form>label{
+    font-size: large;
+    margin: 2% 1% 2% 1%;
+}
+#centroderecha>form>button{
+    width: 96%;
+    height: 2em;
+    margin: 8% 1% 6% 1%;
+    color: white;
+    background-color: darkmagenta;
+    background-image: radial-gradient(ellipse at center, rgb(139, 0, 139) 20%, rgb(102, 3, 102) 50%, rgb(88, 6, 88) 100%); 
+    box-shadow: rgb(36, 1, 31) 5px 5px 25px 2px; 
+    border: 2px solid rgb(112, 3, 103);
+    border-radius: 6px;
+}
+
+/*-- MEDIA QUERYS --*/
+@media only screen and (max-width : 950px) {
+    .cajalogo{
+        padding: 1% 42%;
+    }
+    #letrasgrandesbanner {
+        margin: 0% 10% 0% 3%;
+    }
+    #sectionbody{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #centroderecha {
+        margin: 2% 2% 3% 13%;
+        width: 66%;
+    }
+    #letrasgrandesbanner>h1{
+        font-size: 5em;
+    }
+    #centroizquierda {
+        width: 80%;
+        padding: 0 0 0 13%;
+    }
+}
+@media only screen and (max-width: 629px) {
+    #letrasgrandesbanner>h1{
+        font-size: 3em;
+    }
+    #letrasgrandesbanner>h2{
+        font-size: 2em;
+    }
+    h6{
+        font-size: large;
+    }
+}

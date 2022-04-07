@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: lightgrey;
+}
+li.enlinea{
+    padding-right: 7%;
+    padding-left: 1%;
+}
+aside{
+    width: 11%;
+    position: fixed;
+    top: 33%;
+}
+div.hijoaside{
+    padding: 5% 11% 76% 6%;
+    border: 1px solid black;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+#navlateral{
+    margin-top: 6%;
+    text-align: center;
+}
+section{   
+    background-color: aquamarine; 
+    margin: 8% 20%;
+    position: relative;
+    height: 800px;
+    width: 73%;
+    box-shadow: inset -3px -1px green;
+}
+.enbloque{
+    display: block;
+}
+.enlinea{
+    display: inline;
+}
+.enlineabloque{
+    display: inline-block;
+}
+#menuprincipal>li{
+    background-color: gray;
+    color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#menuprincipal>li:hover{
+    background-color: rgb(83, 72, 72);
+    color: rgb(243, 208, 113);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#menuprincipal{
+    background-color: gray;
+    color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.padrefoto{
+    position: absolute;
+    width: 28%;
+}
+.polaroid{
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: linen;
+    text-align: center;
+    padding: 3% 3% 0% 3%;
+}
+#pos2 {
+    z-index: 2;
+    top: 42%;
+    left: 44%;
+    transform: rotate(33deg);
+}
+#pos3 {
+    z-index: 3;
+    top: 38%;
+    left: 39%;
+    transform: rotate(-28deg);
+}
+#pos4 {
+    z-index: 4;
+    top: 36%;
+    left: 36%;
+    transform: rotate(11deg);
+}
+#pos5 {
+    z-index: 5;
+    top: 46%;
+    left: 33%;
+    transform: rotate(-22deg);
+}

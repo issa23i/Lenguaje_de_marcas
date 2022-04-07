@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout EJEMPLO 10</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="relativo enlinea">
+        <div class="cabecera sombra">
+            <div class="enlinea cabecera" id="cajalogo">
+                <img src="img/logo.png" alt="logo aventuras">
+            </div>
+            <div class="enlinea cabecera" id="texto">
+                <h1>[Guia] 10 Lugares para un fin de semana de Aventura</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam deserunt ipsam.</p>
+            </div>
+        </div>
+        <div class="fondo">
+            <div class="enlinea fizq fondo relativo">
+                <div class="relativo" id="fondoarbolado">
+                    <img src="img/forestfog.jpg" alt="bosque con niebla">
+                    <div class="absoluto" id="textoabsoluto">
+                        <h2>10 LUGARES</h2>
+                        <h3>PARA UN FIN DE SEMANA DE AVENTURA</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <img src="img/1.jpg" alt="selva" class="absoluto polaroid" id="postal1">
+                    <img src="img/2.jpg" alt="amazonica" class="absoluto polaroid" id="postal2">
+                    <img src="img/3.jpg" alt="Brasil" class="absoluto polaroid" id="postal3">
+                    <img src="img/4.jpg" alt="paisaje" class="absoluto polaroid" id="postal4">
+                    <img src="img/logo.png" alt="logo chico" class="absoluto" id="logochico">
+                </div>
+                <div class="descripcion">
+                    <h4>Todas las regiones de Brasil</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis culpa illum molestias ipsa hic sit, earum nulla eveniet soluta natus dignissimos ratione asperiores sunt amet assumenda quis</p>
+                </div>
+            </div>
+            <div class="cabecera sombra enlinea fdcha fondo fijado">
+                <div class="cabecera sombra"  id="tarjeta_formulario">
+                    <h5>Reserva gratuitamente aquí</h5>
+                    <p>Rellena este formulario</p>
+                </div>
+                <div class="sombra" id="formulario">
+                    <form action="mailto:isa@isa.com" method="get">
+                        <fieldset>
+                            <div class="cajainput">
+                                <label for="nombre">Nombre*: </label>
+                                <input type="text" name="nombre" id="nombre">
+                            </div>
+                            <div class="cajainput">
+                                <label for="email">E-mail*: </label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                            <label for="estado">Estado*: </label>
+                            <div class="cajainput">
+                                <select name="estado" id="estado">
+                                    <optgroup>
+                                        <option value="default"></option>
+                                        <option value="casado">casado</option>
+                                        <option value="soltero">soltero</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="cajainput">
+                                <label for="aventura">¿Practica algún deporte de riesgo?</label>
+                                <div id="aventuraT"><input type="checkbox" name="aventuraT"> Trekking</div>
+                                <div id="aventuraP"><input type="checkbox" name="aventuraP"> Puenting</div>
+                                <div id="aventuraE"><input type="checkbox" name="aventuraE"> Escalada</div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

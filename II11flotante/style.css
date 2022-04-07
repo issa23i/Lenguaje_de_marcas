@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: lightgrey;
+}
+li.enlinea{
+    padding-right: 7%;
+    padding-left: 1%;
+}
+aside{
+    width: 11%;
+    position: fixed;
+    top: 33%;
+}
+div.hijoaside{
+    padding: 5% 11% 76% 6%;
+    border: 1px solid black;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+#navlateral{
+    margin-top: 6%;
+    text-align: center;
+}
+section{   
+    background-color: aquamarine; 
+    margin: 8% 20%;
+    position: relative;
+    height: 800px;
+    width: 73%;
+    box-shadow: inset -3px -1px green;
+}
+.enbloque{
+    display: block;
+}
+.enlinea{
+    display: inline;
+}
+.enlineabloque{
+    display: inline-block;
+}
+.relativo{
+    position: relative;
+}
+.estiqui{
+    position:sticky;
+    bottom: 0;
+}
+.navprincipal{
+    position:sticky;
+    top: 0;
+}
+.menu>li{
+    background-color: gray;
+    color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.menu>li:hover{
+    background-color: rgb(83, 72, 72);
+    color: rgb(243, 208, 113);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.menu{
+    background-color: gray;
+    color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+footer{
+    background-color: rgb(210, 171, 226);
+    text-align: center;
+
+}
+.caja{
+    width: 33%;
+}
+.cajica{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 2%;
+    text-align: justify;
+}
